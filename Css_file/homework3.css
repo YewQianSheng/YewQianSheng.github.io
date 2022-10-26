@@ -1,0 +1,53 @@
+h1b {
+
+    font-size: 35px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+p2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 16px;
+}
+
+P3 {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+}
+
+
+.container1 {
+    display: flex;
+}
+
+.container1 div {
+    flex: 1;
+}
+
+#h3 {
+    text-align: right;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 250px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+
+}
+
+#img5 {
+    background-image: url("../img/homework3_img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 231px;
+    margin-top: 80px;
+    padding: 100px;
+
+
+}

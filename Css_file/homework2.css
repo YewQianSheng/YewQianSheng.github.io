@@ -1,0 +1,92 @@
+p1 {
+    font-size: 17px;
+    text-align: center;
+
+}
+
+h1a {
+    font-size: 60px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+    font-size: 19px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.container div {
+    flex: 1;
+}
+
+.container_T {
+    display: flex;
+}
+
+.container_T div {
+    flex: 1;
+}
+
+#h2 {
+    text-align: center;
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+    border-bottom: 7px solid black;
+    margin-bottom: 90px;
+    margin-left: 320px;
+    margin-right: 320px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#img2 {
+    background-image: url("../img/homework2a.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+
+}
+
+#img3 {
+    background-image: url("../img/homework2b.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+
+
+
+}
+
+#img4 {
+    background-image: url("../img/homework2c.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+
+}
+
+#text1 {
+    font-size: 10px;
+    text-align: center;
+
+}
+
+#text2 {
+    font-size: 10px;
+    text-align: center;
+
+}
+
+#text3 {
+    font-size: 10px;
+    text-align: center;
+
+}
