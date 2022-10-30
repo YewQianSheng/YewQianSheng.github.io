@@ -4,12 +4,12 @@ p {
 
 }
 
-h {
+#title {
     font-size: 60px;
     font-family: 'Fjalla One', sans-serif;
 }
 
-h2 {
+h1 {
     font-size: 19px;
     font-family: 'Fjalla One', sans-serif;
 }
@@ -30,7 +30,7 @@ h2 {
     flex: 1;
 }
 
-#h2 {
+#homework2 {
     text-align: center;
     border-left: 7px solid black;
     border-right: 7px solid black;
@@ -54,7 +54,7 @@ h2 {
 }
 
 #img3 {
-    background-image: url("../../img/homework2b.png");
+    background-image: url("../img_week4/homework2_white_girl.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +65,7 @@ h2 {
 }
 
 #img4 {
-    background-image: url("../../img/homework2c.png");
+    background-image: url("../img_week4/homework2_white_boy.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
