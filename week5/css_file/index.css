@@ -11,6 +11,8 @@
     padding: 20px;
 }
 
+
+
 #name {
     margin-top: 0px;
 }
@@ -44,6 +46,7 @@
 
 .row {
     display: flex;
+    justify-content: center;
 }
 
 .row2 {
@@ -58,11 +61,14 @@
 
 .column {
     width: 33.33%;
+    text-align: center;
 }
 
 
 #column1 {
     width: 39%;
+    justify-content: center;
+
 }
 
 .column2 {
@@ -82,19 +88,27 @@
     .column {
         width: 100%;
     }
+
+    #column1 {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
     .row2 {
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 
     .column2 {
-        width: 50%;
+        width: 100%;
     }
 }
 
 @media screen and (max-width: 480px) {
+    .row3 {
+        flex-direction: column;
+    }
+
     .column3 {
         width: 100%;
     }
