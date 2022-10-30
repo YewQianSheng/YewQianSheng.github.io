@@ -1,4 +1,4 @@
-h {
+#title {
 
     font-size: 35px;
     font-family: 'Archivo Black', sans-serif;
@@ -23,7 +23,7 @@ p3 {
     flex: 1;
 }
 
-#h1 {
+#homework3 {
     text-align: right;
     margin-top: 150px;
     margin-left: 100px;
@@ -40,8 +40,8 @@ p3 {
 
 }
 
-#img5 {
-    background-image: url("../../img/homework3_img.png");
+#img {
+    background-image: url("../img_week4/homework3_laptop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
