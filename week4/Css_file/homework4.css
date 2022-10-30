@@ -1,17 +1,15 @@
+body {
+    background-color: #1c1c1c;
+}
+
 h {
     font-family: 'DM Serif Display', serif;
     font-size: 40px;
     color: white;
 }
 
-h1d {
-    font-family: 'DM Serif Display', serif;
-    font-size: 40px;
-    color: white;
-    font-style: italic;
-}
 
-p4 {
+#content {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 18px;
     color: white;
@@ -19,23 +17,24 @@ p4 {
 
 
 
-.container2 {
+.container {
     display: flex;
 
 }
 
-.container2 div {
+.container div {
     flex: 1;
 
 }
 
 
 
-#h4 {
+#homework4 {
     text-align: center;
     margin-bottom: 30px;
     margin-top: 30px;
     margin-right: 10px;
+    margin-left: 50px;
     width: 150px;
     height: 300px;
     border-right: 2px solid white;
@@ -44,13 +43,14 @@ p4 {
 
 }
 
-#img6 {
-    background-image: url("../../img/homework4_img.png");
+#img {
+    background-image: url("../img_week4/homework4_boy_girl.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     border-right: 2px solid white;
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-right: 50px;
     background-position: center;
     height: 300px;
     padding: 100px;
