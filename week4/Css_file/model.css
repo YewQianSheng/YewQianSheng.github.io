@@ -7,7 +7,7 @@
 }
 
 #div2 {
-    background-image: url("../../img/background.jpg");
+    background-image: url("../img_week4/background.jpg");
     background-repeat: no-repeat;
     border: 5px solid black;
     padding: 50px;
@@ -17,7 +17,7 @@
 
 #div3 {
 
-    background-image: url("../../img/backgroud4.jpg");
+    background-image: url("../img_week4/backgroud4.jpg");
     border: 5px solid black;
     padding: 50px;
     margin: 20px;
