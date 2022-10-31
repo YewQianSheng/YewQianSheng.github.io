@@ -2,6 +2,9 @@
     background-color: #F1F1F1;
     margin: auto;
     display: flex;
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
 }
 
 .container div {
@@ -25,6 +28,8 @@
 .menu {
     display: flex;
     background-color: #333;
+    max-width: 1024px;
+    margin: auto;
 }
 
 #navlink {
@@ -48,6 +53,9 @@
 
 .container2 {
     display: flex;
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
 }
 
 .textcontent {
@@ -62,4 +70,13 @@
 
 .footer {
     text-align: center;
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.slideshow {
+    background-color: #F1F1F1;
+    max-width: 1024px;
+    margin: auto;
 }
