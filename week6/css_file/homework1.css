@@ -1,32 +1,60 @@
 .container {
     margin: auto;
     display: flex;
-    max-width: 1024px;
+    max-width: 1500px;
+    margin-right: 100px;
 
 }
 
 .bigcontainer2 {
     margin: auto;
     display: flex;
-    max-width: 1024px;
+    max-width: 1500px;
+    margin-right: 100px;
 }
 
-.icon {
-    display: flex;
-    margin: auto;
-    max-width: 1024px;
+
+#image2 {
+    display: grid;
+    gap: 40px;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
 }
 
 .bigcontainer {
     background-image: url(../image/Bg\ Shape@2x.png);
-    height: 400px;
+    height: 500px;
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     max-width: 1024px;
     margin: auto;
+}
 
+#button {
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 250px;
+
+}
+
+#text {
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container div {
@@ -35,11 +63,11 @@
 
 .header {
     display: flex;
+    margin-left: 80px;
 }
 
 .menu {
     display: flex;
-
     margin: auto;
     justify-content: right;
 }
@@ -52,7 +80,7 @@
 }
 
 .menu a {
-    color: black;
+    color: white;
     text-align: right;
     padding: 14px 16px;
     text-decoration: none;
@@ -64,31 +92,227 @@
 }
 
 .image {
-    margin-right: 10%;
+    position: absolute;
+    top: 100px;
+    right: 100px;
 }
 
-.menu2 {
-    display: grid;
+.container2 {
+    position: absolute;
+    top: 130px;
+    left: 80px;
+    line-height: 15px;
+}
 
+#icon {
+    position: absolute;
+    top: 500px;
+    left: 45%;
+}
+
+/* page2------------------------------------------------------------------------------------- */
+.container3 {
+    display: flex;
+    max-width: 1500px;
     margin: auto;
-    justify-content: left;
+    position: relative;
+    background-image: url(../image/who\ we\ are\ background@2x.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-#navlink2 {
-    display: grid;
-    align-items: center;
-    justify-content: left;
+.image3 {
+    margin-top: 100px;
+}
+
+.container4 {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+#button2 {
+    position: absolute;
+    right: 300px;
+    bottom: 100px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    height: 80px;
     width: 250px;
+
 }
 
-.menu2 a {
-    color: black;
-    text-align: right;
-    padding: 14px 16px;
+#text2 {
+    position: absolute;
+    left: 70px;
+    top: 15px;
+    color: white;
+}
+
+a {
     text-decoration: none;
 }
 
-.menu2 a:hover {
-    background-color: #ddd;
-    color: black;
+/* page3--------------------------------------------------------------------------------- */
+.container5 {
+    max-width: 1024px;
+    margin: auto;
+    line-height: 15px;
+    position: relative;
+    height: 1020px;
+}
+
+#background {
+    position: absolute;
+    top: 350px;
+}
+
+.item1 {
+    position: absolute;
+    top: 70px;
+    grid-area: service1;
+    position: relative;
+    background-color: white;
+}
+
+.item2 {
+    position: absolute;
+    top: 70px;
+    grid-area: service2;
+    position: relative;
+    background-color: white;
+}
+
+.item3 {
+    position: absolute;
+    top: 70px;
+    grid-area: service3;
+    position: relative;
+    background-color: white;
+}
+
+.item4 {
+    position: absolute;
+    top: 50px;
+    grid-area: service4;
+    position: relative;
+    background-color: white;
+}
+
+.item5 {
+    position: absolute;
+    top: 50px;
+    grid-area: service5;
+    position: relative;
+    background-color: white;
+}
+
+.item6 {
+    position: absolute;
+    top: 50px;
+    grid-area: service6;
+    position: relative;
+    background-color: white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'service1 service1 service2 service2 service3 service3'
+        'service4 service4 service5 service5 service6 service6';
+    gap: 50px;
+
+    padding: 10px;
+}
+
+.grid-container>div {
+    text-align: center;
+    font-size: 15px;
+}
+
+.button3 {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 130px;
+
+}
+
+.text3 {
+    position: absolute;
+    left: 30px;
+    top: 6px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.item1 {
+    box-shadow: 0px 20px 20px gray;
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.item2 {
+    box-shadow: 0px 20px 20px gray;
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.item3 {
+    box-shadow: 0px 20px 20px gray;
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.item4 {
+    box-shadow: 0px 20px 20px gray;
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.item5 {
+    box-shadow: 0px 20px 20px gray;
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.item6 {
+    box-shadow: 0px 20px 10px gray;
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+.title3 {
+    padding-left: 20px;
+    text-align: left;
+}
+
+/* page4--------------------------------------------------------------------------------- */
+
+.container6 {
+    position: relative;
+    background-color: #ddddfa;
+    margin: auto;
+    text-align: center;
+    max-width: 1500px;
+
 }
