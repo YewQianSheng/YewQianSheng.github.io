@@ -313,6 +313,133 @@ div.item6 {
     background-color: #ddddfa;
     margin: auto;
     text-align: center;
-    max-width: 1500px;
+    max-width: 1024px;
 
+}
+
+.price1 {
+    grid-area: price1;
+}
+
+.price2 {
+    grid-area: price2;
+}
+
+.price3 {
+    grid-area: price3;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas:
+        'price1 price1 price2 price2 price3 price3';
+    gap: 30px;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.grid-container2>div {
+    text-align: center;
+    background-color: white;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.button4 {
+    position: absolute;
+    left: 140px;
+    bottom: 50px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.text4 {
+    position: absolute;
+    left: 28px;
+    top: 6px;
+    color: black;
+    font-size: 15px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+div.price1 {
+
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.price2 {
+
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+div.price3 {
+
+    border-radius: 12px;
+    padding: 5px;
+    height: 320px;
+    width: 270px;
+}
+
+.button5 {
+    position: absolute;
+    left: 43%;
+    bottom: 40px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+    width: 130px;
+
+}
+
+.text5 {
+    position: absolute;
+    left: 30px;
+    top: 6px;
+    color: white;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button6 {
+    position: absolute;
+    right: 140px;
+    bottom: 50px;
+    height: 30px;
+    width: 120px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.text6 {
+    position: absolute;
+    left: 28px;
+    top: 6px;
+    color: black;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* page5--------------------------------------------------------------------------------- */
+.container7 {
+    display: flex;
 }
