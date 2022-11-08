@@ -440,6 +440,168 @@ a {
 }
 
 /* page5--------------------------------------------------------------------------------- */
+
 .container7 {
+    max-width: 1024px;
+    margin: auto;
+    position: relative;
+    height: 200px;
+}
+
+.group1 {
+    grid-area: group1;
+}
+
+.group2 {
+    grid-area: group2;
+
+}
+
+.group3 {
+    grid-area: group3;
+    position: absolute;
+    left: 200px;
+}
+
+
+.grid-container3 {
+    grid-template-areas:
+        'group1'
+        'group2'
+        'group3';
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-container3>div {
+    text-align: center;
+
+    font-size: 15px;
+}
+
+.button7 {
+    position: absolute;
+    left: 450px;
+    background-image: url(../image/Rectangle\ 8@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 160px;
+    position: relative;
+
+}
+
+.text7 {
+    position: absolute;
+    left: 48px;
+    top: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    left: 80px;
+    background-color: rgb(239, 245, 250);
+    border: none;
+}
+
+
+
+/* page6----------------------------------------------------------------------------- */
+
+.container8 {
+    max-width: 1024px;
+    margin: auto;
+    position: relative;
+
+}
+
+.background {
+    position: absolute;
+    top: 20px;
+}
+
+.background2 {
+    position: absolute;
+    top: 40px;
+    right: -7px;
+}
+
+
+.font {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.font2 {
+    position: absolute;
+    left: 5px;
+    bottom: 30px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.logo {
     display: flex;
+    position: absolute;
+    left: 150px;
+    gap: 15px;
+    top: 210px;
+}
+
+.links {
+    display: grid;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    color: white;
+    gap: 10px;
+}
+
+.links a {
+    color: white;
+}
+
+.links2 {
+    font-size: 14px;
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    color: white;
+}
+
+.links3 {
+    display: grid;
+    font-size: 14px;
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    color: white;
+}
+
+.icon2 {
+    display: grid;
+    gap: 30px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+
+.about {
+    display: grid;
+    position: absolute;
+    left: 25px;
+    top: 35px;
 }
