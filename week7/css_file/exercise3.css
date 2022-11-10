@@ -1,20 +1,20 @@
 .container {
     margin: auto;
-    width: 600px;
+    width: 46%;
     position: relative;
     background-color: aqua;
-    height: 600px;
-}
-
-
-
-.row {
-    justify-content: center;
+    height: 610px;
 }
 
 .row1 input {
     height: 40px;
-    width: 35%;
+    width: 48%;
+
+}
+
+.row3 input {
+    height: 40px;
+    width: 98%;
 
 }
 
