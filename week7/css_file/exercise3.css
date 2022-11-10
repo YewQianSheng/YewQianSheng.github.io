@@ -1,0 +1,35 @@
+.container {
+    margin: auto;
+    width: 600px;
+    position: relative;
+    background-color: aqua;
+    height: 600px;
+}
+
+
+
+.row {
+    justify-content: center;
+}
+
+.row1 input {
+    height: 40px;
+    width: 35%;
+
+}
+
+.row2 {
+    display: flex;
+}
+
+.row2 input {
+    height: 40px;
+    width: 250px;
+}
+
+.submit {
+    position: absolute;
+    left: 35%;
+    text-align: center;
+    width: 25%;
+}

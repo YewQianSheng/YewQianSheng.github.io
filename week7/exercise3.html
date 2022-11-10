@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>exercise1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a69c1840cc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css_file/exercise3.css">
+</head>
+
+<body>
+    <div class="container">
+        <form name="myForm" action="form_submit.html">
+            <fieldset>
+
+                <legend>Personal information:</legend>
+                <h2>Name</h2>
+                <div class="row1">
+                    <input type="text" name="firstname" placeholder="Frist">
+                    <input type="text" name="lastname" placeholder="Last"><br><br>
+                </div>
+
+                <div class="row2">
+                    <div class="email">
+                        <h3>Email</h3>
+                        <input type="text" name="email'" value="">
+                    </div>
+                    <div class="phone">
+                        <h3>Phone</h3>
+                        <input type="text" name="phone" placeholder="### ### ####"><br><br>
+                    </div>
+                </div>
+                <div class="gender">
+                    <h3>Gender</h3>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br>
+                </div>
+                <div class="row3">
+                    <h3>Farmer Address</h3>
+                    <div class="address1"><input type="text" name="Street Address" placeholder="Street Address">
+                    </div>
+                    <div class="address2"><input type="text" name="Street Address Line 2"
+                            placeholder="Street Address Line 2"></div>
+                </div>
+                <div class="row4">
+                    <input type="text" name="city" placeholder="City">
+                    <input type="text" name="region" placeholder="Region"><br><br>
+                </div>
+                <div class="row5">
+                    <input type="text" name="city" placeholder="Postal/Zip Code">
+                    <input type="text" name="region" placeholder="Country"><br><br>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
