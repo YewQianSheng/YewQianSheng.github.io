@@ -1,21 +1,28 @@
-.container {
-    margin: auto;
-    width: 46%;
-    position: relative;
-    background-color: aqua;
-    height: 610px;
-}
-
 .row1 input {
     height: 40px;
-    width: 48%;
+    width: 273px;
+}
 
+.cover {
+    height: 750px;
+    background-color: aquamarine;
+    max-width: 570px;
+    margin: auto;
+}
+
+legend {
+    font-size: 40px;
+    color: green;
 }
 
 .row3 input {
     height: 40px;
-    width: 98%;
+    width: 560px;
 
+}
+
+.email {
+    margin-right: 5px;
 }
 
 .row2 {
@@ -24,12 +31,58 @@
 
 .row2 input {
     height: 40px;
-    width: 250px;
+    width: 273px;
 }
 
-.submit {
+.send {
     position: absolute;
     left: 35%;
     text-align: center;
-    width: 25%;
+    width: 30%;
+
+}
+
+.send input {
+    border-radius: 28px;
+    padding: 8px 28px;
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.row4 {
+    display: flex;
+}
+
+
+.row4 input {
+    height: 40px;
+    width: 269px;
+    margin: 5px;
+}
+
+.row5 {
+    display: flex;
+}
+
+.row5 input {
+    height: 40px;
+    width: 269px;
+    margin: 5px;
+}
+
+#country {
+    height: 45px;
+    width: 279px;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+h2 {
+    color: green;
+}
+
+h3 {
+    color: green;
 }
