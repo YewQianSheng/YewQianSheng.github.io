@@ -113,6 +113,60 @@
     margin-top: 15px;
 }
 
+/* @media screen and (max-width: 600px) {
+    .bigcontainer {
+        width: 100%;
+        position: relative;
+    }
+
+    .container {
+        position: absolute;
+        width: 100%;
+    }
+
+    .header {
+        position: absolute;
+        width: 100%;
+    }
+
+    .menu {
+        position: absolute;
+        width: 100%;
+    }
+
+    .contact {
+        position: absolute;
+        width: 100%;
+    }
+
+    .container2 {
+        position: absolute;
+        width: 100%;
+    }
+
+    .content {
+        position: absolute;
+        width: 100%;
+    }
+
+    .picture {
+        position: absolute;
+        width: 100%;
+    }
+
+    .startup {
+        position: absolute;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+} */
+
 /* 2---------------------------------------------------------------------------------------------------------------------- */
 .bigcontainer2 {
     height: 550px;
