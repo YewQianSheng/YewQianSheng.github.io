@@ -1,0 +1,539 @@
+.container {
+    margin: auto;
+    display: flex;
+    width: 1000px;
+    margin-right: 100px;
+}
+
+#title {
+    color: white;
+    margin-top: 10px;
+}
+
+.content h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 40px;
+}
+
+.content p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+
+.header h2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+
+
+.bigcontainer {
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    background-image: url(../image/background_universe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container div {
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    margin-left: 80px;
+}
+
+.menu {
+    display: flex;
+    margin: auto;
+    justify-content: right;
+}
+
+#navlink {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 450px;
+}
+
+.menu a {
+    color: white;
+    text-align: right;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.contact {
+    left: 35%;
+    width: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.contact input {
+    padding: 8px 28px;
+    background-image: url(../image/background_universe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-color: white;
+    border-style: 1px solid white;
+    color: white;
+    border-radius: 8%;
+}
+
+.content {
+    margin-left: 100px;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.picture {
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.me {
+    border-radius: 18%;
+}
+
+.startup {
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+/* 2---------------------------------------------------------------------------------------------------------------------- */
+.bigcontainer2 {
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    background-color: #D6E6FF;
+    margin: auto;
+    display: flex;
+}
+
+.content2 {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.content2 p {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 12px;
+    color: #C65BEC;
+}
+
+#content {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 12px;
+    color: #180078;
+}
+
+#title2 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 35px;
+    color: #180078;
+}
+
+#title3 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    color: #180078;
+}
+
+.mountain {
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.image2 {
+    margin-left: 200px;
+
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.about input {
+    background-color: white;
+    font-family: 'Epilogue', sans-serif;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 6%;
+}
+
+/* 3--------------------------------------------------------------------------------------------------------------- */
+.bigcontainer3 {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    background-color: #739EDF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+.all {
+    display: flex;
+
+}
+
+.img1 {
+    position: absolute;
+    top: 40px;
+    left: 220px;
+}
+
+.movie4 {
+    border-radius: 20%;
+}
+
+.movie2 {
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.text2 {
+    display: flex;
+
+}
+
+.moana {
+    margin-left: 80px;
+}
+
+.luca {
+    margin-left: 260px;
+}
+
+.encanto {
+    margin-left: 240px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.dot {
+    border: 1px solid black;
+    height: 10px;
+    width: 10px;
+    background-color: #739EDF;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px;
+}
+
+.read a {
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+.bigcontainer4 {
+    height: 800px;
+    width: 1000px;
+    margin: auto;
+    background-color: #D6E6FF;
+    font-family: 'Epilogue', sans-serif;
+    color: #4127DC;
+
+}
+
+.container4 {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.content4 p {
+    color: #C65BEC;
+}
+
+.work {
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.mywork {
+    margin-left: 120px;
+    margin-top: 120px;
+}
+
+.cover {
+    border-bottom: 3px solid #739EDF;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.border {
+    border: 2px solid #739EDF;
+    height: 130px;
+    width: 350px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.phone {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.phone2 {
+    margin-left: 80px;
+}
+
+.phone img {
+    background-color: #4127DC;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.phone3 {
+    margin-left: 50px;
+    color: #5C2000;
+}
+
+.border2 {
+    border: 2px solid #739EDF;
+    height: 130px;
+    width: 350px;
+    background-color: #739EDF;
+    margin-top: 40px;
+}
+
+.email {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.email2 {
+    margin-left: 80px;
+}
+
+.email img {
+    background-color: #4127DC;
+    border-radius: 45%;
+    padding: 10px;
+}
+
+.emial3 {
+    margin-left: 35px;
+    color: #5C2000;
+}
+
+.info {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.mywork input {
+    background-color: white;
+    font-family: 'Epilogue', sans-serif;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6%;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+.bigcontainer5 {
+    height: 480px;
+    width: 1000px;
+    margin: auto;
+    background-color: #739EDF;
+    position: relative;
+    margin-top: -20px;
+    font-family: 'Epilogue', sans-serif;
+    color: #4127DC;
+}
+
+.form {
+    position: absolute;
+    right: 100px;
+    top: 40px;
+    width: 310px;
+    height: 320px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+}
+
+.form input {
+    width: 300px;
+    height: 35px;
+}
+
+.form select {
+    width: 308px;
+    height: 40px;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message ::placeholder {
+    position: absolute;
+    top: 7px;
+    left: 2px;
+}
+
+.message input {
+    height: 80px;
+}
+
+#get {
+    color: #391400;
+}
+
+.submit {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 157px;
+}
+
+.submit a {
+    color: white;
+    background-color: #739EDF;
+    border: none;
+    padding: 13px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.topic {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    text-align: center;
+}
+
+.contact2 {
+    position: absolute;
+    top: 200px;
+    left: 110px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+.bigcontainer6 {
+    position: relative;
+    height: 420px;
+    width: 1000px;
+    margin: auto;
+    background-color: #D6E6FF;
+    position: relative;
+    margin-top: -20px;
+    font-family: 'Epilogue', sans-serif;
+
+}
+
+.container6 {
+    display: flex;
+    height: 300px;
+    width: 850px;
+    border-bottom: 1px solid #739EDF;
+    margin-left: 86px;
+}
+
+.intro {
+    color: #5C2000;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+
+.intro h1 {
+    font-size: 20px;
+}
+
+.links {
+    display: grid;
+    color: #739EDF;
+    gap: 10px;
+    position: absolute;
+    top: 90px;
+    left: 330px;
+}
+
+.links a {
+    color: white;
+}
+
+#link1 {
+    color: #5C2000;
+}
+
+#link2 {
+    color: #5C2000;
+}
+
+#link3 {
+    color: #5C2000;
+}
+
+#link4 {
+    color: #5C2000;
+}
+
+.icon {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    top: 150px;
+    right: 90px;
+}
+
+.icon img {
+    background-color: #739EDF;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.copy {
+    position: absolute;
+    top: 340px;
+    left: 86px;
+    font-family: 'Epilogue', sans-serif;
+    color: #5C2000;
+}
+
+.term {
+    position: absolute;
+    top: 340px;
+    right: 90px;
+    display: flex;
+    gap: 50px;
+    font-family: 'Epilogue', sans-serif;
+    color: #5C2000;
+}
