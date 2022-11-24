@@ -117,54 +117,66 @@
     .bigcontainer {
         width: 100%;
         position: relative;
+        justify-content: center;
+        text-align: center;
     }
 
     .container {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
+
     }
 
     .header {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
     .menu {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
     .contact {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
     .container2 {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
     .content {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
     .picture {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
 
     .startup {
         position: absolute;
         width: 100%;
+        justify-content: center;
+        text-align: center;
     }
-
-
-
-
-
-
-
 } */
 
 /* 2---------------------------------------------------------------------------------------------------------------------- */
