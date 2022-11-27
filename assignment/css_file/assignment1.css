@@ -196,7 +196,7 @@
 /* 2---------------------------------------------------------------------------------------------------------------------- */
 .bigcontainer2 {
     height: 550px;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     background-color: #D6E6FF;
     margin: auto;
@@ -272,7 +272,7 @@
 /* 3--------------------------------------------------------------------------------------------------------------- */
 .bigcontainer3 {
     height: 700px;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     background-color: #739EDF;
     display: flex;
@@ -365,7 +365,7 @@
 
 .bigcontainer4 {
     height: 800px;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     background-color: #D6E6FF;
     font-family: 'Epilogue', sans-serif;
@@ -499,7 +499,7 @@
 /* ---------------------------------------------------------------------------------------------------------------- */
 .bigcontainer5 {
     height: 480px;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     background-color: #739EDF;
     position: relative;
@@ -595,7 +595,7 @@
 .bigcontainer6 {
     position: relative;
     height: 420px;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     background-color: #D6E6FF;
     position: relative;
