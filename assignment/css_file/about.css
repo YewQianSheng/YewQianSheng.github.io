@@ -160,248 +160,57 @@ p {
     }
 }
 
-.bigcontainer {
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.bigcontainer2 {
     background-image: url(../image/background_universe.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-}
-
-.container2 {
-    display: flex;
-    margin-top: 50px;
-}
-
-.content {
-    margin-left: 100px;
-    color: white;
-}
-
-.picture {
-    margin-left: 200px;
-    margin-top: 15px;
-}
-
-.me {
-    border-radius: 18%;
-}
-
-.startup {
-    margin-left: 50px;
-    margin-top: 15px;
-}
-
-@media screen and (max-width: 600px) {
-    .bigcontainer {
-        flex-direction: block;
-        width: auto;
-        height: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .container2 {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .picture {
-        flex-direction: column;
-        margin-left: 10px;
-        justify-content: center;
-        text-align: center;
-        order: 2;
-    }
-
-    .content {
-        flex-direction: column;
-        order: 3;
-        justify-content: center;
-        text-align: center;
-        margin-left: 10px;
-    }
-
-
-    .startup {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-left: 1px;
-    }
-}
-
-/* ------------------------------------------------------------------------------------------------------------------------- */
-
-.bigcontainer2 {
-    background-color: #D6E6FF;
-    margin: auto;
-    display: flex;
-    height: 600px;
-}
-
-.content2 {
-    margin-top: 100px;
-
-}
-
-.layout {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.content2 p {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 12px;
-    color: #C65BEC;
-}
-
-#content {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 12px;
-    color: #180078;
-}
-
-.image2 {
-    margin-right: 20%;
-}
-
-#title2 {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 35px;
-    color: #180078;
-}
-
-#title3 {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 16px;
-    color: #180078;
-}
-
-.mountain {
-    margin-top: 120px;
-    margin-left: 80px;
-}
-
-.about {
-    margin-top: 30px;
-}
-
-.about input {
-    color: white;
-    background-color: #739EDF;
-    border: none;
-    padding: 13px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-@media screen and (max-width: 600px) {
-    .bigcontainer2 {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-        height: auto;
-    }
-
-    .image {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-        margin-right: 80px;
-        margin-top: 10px;
-    }
-
-    .content2 {
-        justify-content: center;
-        text-align: center;
-        margin-top: auto;
-        margin: auto;
-    }
-
-    .image2 {
-        margin-right: 0;
-    }
-
-    .layout {
-        justify-content: space-around;
-    }
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------- */
-
-.bigcontainer3 {
-    height: 770px;
-    background-color: #739EDF;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    color: white;
-    font-family: 'Epilogue', sans-serif;
-
-}
-
-.all {
-    display: flex;
-
-}
-
-.img1 {
-    margin-left: 130px;
+    height: 200px;
+    padding-top: 50px;
 }
 
 .text {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-}
-
-.favourite {
-    margin-right: 255px;
-}
-
-.movie4 {
-    border-radius: 20%;
-}
-
-
-.dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-}
-
-.dot {
-    border: 1px solid black;
-    height: 10px;
-    width: 10px;
-    background-color: #739EDF;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 5px;
-}
-
-.read input {
-    color: white;
-    background-color: #4127DC;
-    border: none;
-    padding: 13px 20px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 10px;
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+.bigcontainer3 {
+    background-color: #D6E6FF;
+    display: flex;
+    height: 1000px;
+}
+
+.badminton {
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.content2 p1 {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #C65BEC;
+}
+
+.content2 {
+    color: #180078;
+    padding-top: 30px;
+    margin: auto;
+
+}
+
+.mix {
+    display: flex;
+}
+
+.image {
+    margin-top: 150px;
 }
 
 @media screen and (max-width: 600px) {
@@ -411,90 +220,13 @@ p {
         justify-content: center;
         text-align: center;
         height: auto;
-        order: 1;
     }
 
-    .text {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    .content3 {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-
-    }
-
-    .img1 {
-        display: block;
-        flex-direction: column;
-        order: 2;
-    }
-
-
-    .favourite {
-        display: block;
-        flex-direction: column;
-        text-align: center;
-        order: 4;
-    }
-
-    /* .all {
+    .mix {
         flex-direction: column;
         width: auto;
         justify-content: center;
         text-align: center;
+        height: auto;
     }
-
-    .movie {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .movie2 {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .movie3 {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .text2 {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .moana {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .luca {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .encanto {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-    } */
 }
