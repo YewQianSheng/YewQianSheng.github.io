@@ -443,9 +443,8 @@ p {
     .all {
         flex-direction: column;
         justify-content: space-between;
-        margin-left: 90px;
-        width: 60%;
     }
+
 
 }
 
@@ -468,12 +467,12 @@ p {
 }
 
 .work {
-    margin-left: 150px;
+    margin-left: 10px;
     margin-top: 150px;
 }
 
 .mywork {
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 90px;
 }
 
@@ -503,7 +502,7 @@ p {
 .border {
     border: 2px solid #739EDF;
     height: 130px;
-    width: 350px;
+    width: 300px;
     margin-left: 120px;
     margin-top: 40px;
 }
@@ -515,7 +514,7 @@ p {
 }
 
 .phone2 {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .phone img {
@@ -532,7 +531,7 @@ p {
 .border2 {
     border: 2px solid #739EDF;
     height: 130px;
-    width: 350px;
+    width: 300px;
     background-color: #739EDF;
     margin-top: 40px;
 }
@@ -544,7 +543,7 @@ p {
 }
 
 .email2 {
-    margin-left: 80px;
+    margin-left: 50px;
 }
 
 .email img {
@@ -554,14 +553,14 @@ p {
 }
 
 .emial3 {
-    margin-left: 35px;
+    margin-left: 18px;
     color: #5C2000;
 }
 
 .info {
     display: flex;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 
 .mywork input {
@@ -601,6 +600,7 @@ p {
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        margin-left: 10px;
     }
 
     .border {
