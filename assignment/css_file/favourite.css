@@ -5,7 +5,7 @@ body {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Epilogue', sans-serif;
 }
 
@@ -178,127 +178,50 @@ p {
 
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
-
 .bigcontainer3 {
+    height: 820px;
     background-color: #D6E6FF;
     display: flex;
-    height: 1000px;
-}
-
-.badminton {
-    justify-content: center;
     text-align: center;
-    margin-top: 5vw;
-}
-
-.content2 p1 {
+    justify-content: center;
+    color: #180078;
     font-family: 'Epilogue', sans-serif;
-    font-size: 12px;
-    text-align: center;
-    color: #C65BEC;
+
 }
 
-.content2 {
+.text2 {
+    text-align: justify;
+    justify-content: center;
     color: #180078;
-    padding-top: 30px;
-    margin-left: 50px;
-
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
-.mix {
-    display: flex;
-}
-
-.image {
-    margin-top: 150px;
-    margin-left: 100px;
-}
-
-@media screen and (max-width: 600px) {
-    .bigcontainer3 {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-        height: auto;
-    }
-
-    .mix {
-        flex-direction: column;
-        width: auto;
-        justify-content: center;
-        text-align: center;
-        height: auto;
-    }
-
-    .content2 p {
-        line-height: 20px;
-    }
-
-    .content2 {
-        margin-left: 0px;
-    }
-
-
-    .image {
-        margin-top: 20px;
-        padding-bottom: 90px;
-        margin-left: 10px;
-    }
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
 .bigcontainer4 {
-    height: 580px;
+    height: 920px;
     background-color: #739EDF;
-    color: #180078;
-    padding-top: 10px;
-}
-
-.container2 {
-    margin-left: 100px;
-    margin-top: 30px;
-}
-
-.all {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: auto;
-    padding-left: 2vw;
+    color: #180078;
+    font-family: 'Epilogue', sans-serif;
 
 }
 
-.all p {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    text-align: justify;
+/* --------------------------------------------------------------------------------------------------------------------------- */
+.bigcontainer5 {
+    height: 820px;
+    background-color: #D6E6FF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #180078;
+    font-family: 'Epilogue', sans-serif;
+
 }
 
-.special {
-    border-radius: 20%;
-}
-
-@media screen and (max-width: 600px) {
-    .bigcontainer4 {
-        height: auto;
-        padding-bottom: 40px;
-    }
-
-    .container2 {
-        text-align: center;
-        justify-content: center;
-        margin-left: 0px;
-    }
-
-    .all {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
-}
-
-/* -------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------- */
 .bigcontainer6 {
     height: 260px;
     background-color: #4127DC;
@@ -365,6 +288,33 @@ p {
     gap: 50px;
     font-family: 'Epilogue', sans-serif;
     color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .bigcontainer3 {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .bigcontainer4 {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .bigcontainer5 {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+        padding-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 600px) {
