@@ -240,6 +240,7 @@ p {
     height: 600px;
 }
 
+
 .content2 {
     margin-top: 100px;
 
@@ -288,7 +289,7 @@ p {
     margin-top: 30px;
 }
 
-.about input {
+.about a {
     color: white;
     background-color: #739EDF;
     border: none;
@@ -301,6 +302,7 @@ p {
     cursor: pointer;
     border-radius: 10px;
 }
+
 
 @media screen and (max-width: 600px) {
     .bigcontainer2 {
@@ -390,7 +392,7 @@ p {
     margin: 5px;
 }
 
-.read input {
+.read a {
     color: white;
     background-color: #4127DC;
     border: none;
