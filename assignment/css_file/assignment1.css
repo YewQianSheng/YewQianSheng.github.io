@@ -1,165 +1,3 @@
-body {
-    max-width: 1024px;
-    margin: auto;
-
-}
-
-h2 {
-    font-size: 20px;
-    font-family: 'Epilogue', sans-serif;
-}
-
-h1 {
-    font-size: 40px;
-    font-family: 'Epilogue', sans-serif;
-}
-
-p {
-    font-size: 15px;
-    font-family: 'Epilogue', sans-serif;
-}
-
-#title {
-    color: white;
-    margin-top: 10px;
-}
-
-.logo {
-    display: flex;
-}
-
-.topnav {
-    position: relative;
-    overflow: hidden;
-}
-
-.contact {
-    background-image: url(../image/background_universe.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 1px solid white;
-    border-radius: 8%;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-image: url(../image/background_universe.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    margin-left: 30px;
-}
-
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
-.topnav .icon {
-    display: none;
-}
-
-@media screen and (max-width: 600px) {
-    .topnav a {
-        display: none;
-    }
-
-
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .topnav.responsive {
-        position: relative
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
-
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-
-}
-
-.overlay-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-
-}
-
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    display: block;
-    transition: 0.3s;
-}
-
-.overlay a:hover,
-.overlay a:focus {
-    color: #f1f1f1;
-}
-
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-}
-
-@media screen and (max-height: 450px) {
-    .overlay a {
-        font-size: 20px
-    }
-
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 10px;
-        right: 35px;
-    }
-}
-
 .bigcontainer {
     background-image: url(../image/background_universe.jpg);
     background-size: cover;
@@ -253,14 +91,10 @@ p {
 }
 
 .content2 p {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 12px;
     color: #C65BEC;
 }
 
 #content {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 12px;
     color: #180078;
 }
 
@@ -269,14 +103,10 @@ p {
 }
 
 #title2 {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 35px;
     color: #180078;
 }
 
 #title3 {
-    font-family: 'Epilogue', sans-serif;
-    font-size: 16px;
     color: #180078;
 }
 
@@ -347,8 +177,6 @@ p {
     text-align: center;
     justify-content: center;
     color: white;
-    font-family: 'Epilogue', sans-serif;
-
 }
 
 .all {
@@ -454,7 +282,6 @@ p {
 .bigcontainer4 {
     height: 800px;
     background-color: #D6E6FF;
-    font-family: 'Epilogue', sans-serif;
     color: #4127DC;
 
 }
@@ -469,7 +296,6 @@ p {
 }
 
 .work {
-    margin-left: 10px;
     margin-top: 150px;
 }
 
@@ -567,7 +393,6 @@ p {
 
 .mywork input {
     background-color: white;
-    font-family: 'Epilogue', sans-serif;
     border: none;
     padding: 8px 25px;
     border-radius: 6%;
@@ -625,7 +450,6 @@ p {
 .bigcontainer5 {
     height: 480px;
     background-color: #739EDF;
-    font-family: 'Epilogue', sans-serif;
     color: #4127DC;
 }
 
@@ -667,10 +491,12 @@ p {
     margin-top: 20px;
 }
 
+#email {
+    width: 98%;
+}
 
-
-.message input {
-    height: 80px;
+#text {
+    width: 98%;
 }
 
 #get {
@@ -724,8 +550,6 @@ p {
     background-color: #D6E6FF;
     position: relative;
     margin-top: -20px;
-    font-family: 'Epilogue', sans-serif;
-
 }
 
 .container6 {
@@ -788,14 +612,12 @@ p {
 }
 
 .copy {
-    font-family: 'Epilogue', sans-serif;
     color: #5C2000;
 }
 
 .term {
     display: flex;
     gap: 50px;
-    font-family: 'Epilogue', sans-serif;
     color: #5C2000;
 }
 
