@@ -66,11 +66,6 @@ p {
     color: black;
 }
 
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-}
-
 .topnav .icon {
     display: none;
 }
@@ -134,6 +129,7 @@ p {
     font-size: 36px;
     display: block;
     transition: 0.3s;
+    color: gray;
 }
 
 .overlay a:hover,
