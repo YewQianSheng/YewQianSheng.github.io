@@ -196,11 +196,6 @@ p {
 
 }
 
-.mix2 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .link1 {
     color: white;
 }
@@ -242,12 +237,6 @@ p {
         justify-content: center;
         text-align: center;
         margin-left: auto;
-    }
-
-    .mix2 {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
     }
 
     .icon {
