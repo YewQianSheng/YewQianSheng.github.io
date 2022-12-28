@@ -1,0 +1,207 @@
+.backgroud {
+    background-color: #626262;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.blur {
+    opacity: 0.6;
+}
+
+.blur2 {
+    opacity: 0.6;
+}
+
+.home {
+    position: relative;
+}
+
+.home2 {
+    position: relative;
+}
+
+.text2 h1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: black;
+}
+
+.text2 p {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: black;
+}
+
+.text h1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: black;
+}
+
+.text p {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    color: black;
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    border-radius: 7%;
+    border: #d9d9d9;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex img {
+    border-radius: 20%;
+}
+
+.flex a {
+    text-decoration: none;
+    color: white;
+}
+
+.bestsale {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.flex2 {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+}
+
+.flex2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.border {
+    border: 2px solid #d9d9d9;
+    background-color: #d9d9d9;
+    border-radius: 15%;
+    width: 18%;
+    height: 300px;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.border h5 {
+    margin-top: 10%;
+}
+
+.bad {
+    position: relative;
+}
+
+
+
+.bad1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.ball {
+    position: relative;
+}
+
+.ball1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.bag {
+    position: relative;
+}
+
+.bag1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.image {
+    background-color: #d9d9d9;
+}
+
+.bad:hover .bad1 {
+    opacity: 1;
+
+}
+
+.ball:hover .ball1 {
+    opacity: 1;
+}
+
+.bag:hover .bag1 {
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .flex {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .flex2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .border {
+        width: auto;
+        height: auto;
+    }
+
+    .carousel-inner h1 {
+        font-size: medium;
+    }
+
+    .carousel-inner p {
+        font-size: small;
+    }
+
+    .button {
+        font-size: x-small;
+    }
+
+    .home .button {
+        margin-top: 5%;
+    }
+}

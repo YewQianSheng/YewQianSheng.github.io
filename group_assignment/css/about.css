@@ -1,0 +1,120 @@
+.mission {
+    display: flex;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+}
+
+.container2 {
+    background-color: #D9D9D9;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.blur2 {
+    opacity: 0.6;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+}
+
+.border {
+    border: 2px solid white;
+    background-color: white;
+    width: 25%;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    position: relative;
+}
+
+.border h4 {
+    padding-top: 20px;
+}
+
+.home {
+    position: relative;
+}
+
+.text h1 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: black;
+}
+
+.text p {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    color: black;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: grey;
+}
+
+.world {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.border:hover .overlay {
+    opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+    .mission {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .mission img {
+        width: 100%;
+    }
+
+    .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .border {
+        width: auto;
+        height: auto;
+    }
+
+    .text {
+        font-size: medium;
+    }
+
+    .text p {
+        margin-top: 5%;
+    }
+}

@@ -1,0 +1,203 @@
+.jersey1 {
+    background-color: #CFCFCF;
+    padding-top: 1%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box1 {
+    background-color: #747474;
+    height: fit-content;
+    width: 45%;
+    text-align: right;
+}
+
+
+.liverpool h5 {
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+.liverpool p {
+    color: white;
+    margin-left: 5%;
+    text-align: left;
+}
+
+
+.paris h5 {
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.paris p {
+    color: white;
+    margin-left: 5%;
+    text-align: left;
+
+}
+
+.jersey2 {
+    background-color: #CFCFCF;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1%;
+}
+
+
+.laker h5 {
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.laker p {
+    color: white;
+    margin-left: 5%;
+    text-align: left;
+
+}
+
+.warrior h5 {
+    text-align: center;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.warrior p {
+    color: white;
+    margin-left: 5%;
+    text-align: left;
+
+}
+
+.jersey3 {
+    background-color: #CFCFCF;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.box5 {
+    display: flex;
+    background-color: #747474;
+    width: 93.5%;
+    margin: auto;
+}
+
+.box5 p{
+    margin-left: 5%;
+}
+
+.box5 button{
+    margin-left: 5%;
+}
+
+.imagemen {
+    width: 50%;
+}
+.men{
+    width: 50%;
+    padding-top: 3%;
+}
+.men h5 {
+    text-align: center;
+    color: white;
+}
+
+.men p {
+    color: white;
+}
+
+.footerrow {
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    background-color: #626262;
+    color: white;
+}
+
+.column2 {
+    width: 30%;
+}
+
+.column3 {
+    width: 20%;
+    display: grid;
+}
+
+.column3 a {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    .jersey1 {
+        flex-direction: column;
+    }
+
+    .box1 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .jersey2 {
+        flex-direction: column;
+    }
+
+    .box1 {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2%;
+    }
+
+    .box5 {
+        flex-direction: column;
+        text-align: right;
+        width: 90%;
+        margin: auto;
+    }
+    .men{
+        width: 100%;
+        margin: auto;
+    }
+
+    .men p {
+        text-align: left;
+    }
+
+    .imagemen {
+        width: 100%;
+    }
+
+    .footerrow {
+        flex-direction: column;
+    }
+
+    .column2 {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+
+    .column3 {
+        margin-bottom: 2%;
+        width: 100%;
+    }
+}

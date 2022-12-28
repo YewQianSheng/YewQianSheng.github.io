@@ -1,0 +1,105 @@
+.width {
+    width: 50%;
+    color: white;
+}
+
+.hight {
+    width: 50%;
+    margin-bottom: 4%;
+}
+
+.bg_color {
+    justify-content: center;
+    text-align: center;
+    background-color: #747474;
+    width: 100%;
+}
+
+.d-flex {
+    margin-left: 8%;
+}
+
+.d-flex a {
+    text-decoration: none;
+    color: white;
+}
+
+.blur {
+    opacity: 0.6;
+}
+
+.blur2 {
+    opacity: 0.6;
+}
+
+.home {
+    position: relative;
+}
+
+.home2 {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 40%;
+    right: 18%;
+    color: black;
+}
+
+.text2 {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: black;
+}
+
+.button {
+    border-radius: 7%;
+    border: #d9d9d9;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+
+@media screen and (max-width: 600px) {
+    .d-flex {
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+        text-align: center;
+        height: auto;
+    }
+
+    .width {
+        width: auto;
+        margin-right: 10%;
+
+    }
+
+    .hight {
+        width: auto;
+        margin-right: 10%;
+        margin-bottom: -9%;
+    }
+
+    .width img {
+        opacity: 1;
+        width: 100%;
+    }
+
+    .hight img {
+        opacity: 1;
+    }
+
+    .text {
+        font-size: small;
+    }
+
+    .text2 {
+        font-size: small;
+    }
+}
