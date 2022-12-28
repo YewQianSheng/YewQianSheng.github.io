@@ -40,12 +40,6 @@
     position: relative;
 }
 
-.text {
-    position: absolute;
-    top: 40%;
-    right: 18%;
-    color: black;
-}
 
 .text2 {
     position: absolute;
@@ -95,21 +89,8 @@
         opacity: 1;
     }
 
-    .text {
-        font-size: 85%;
-    }
-
-    .text h1 {
-        font-size: 85%;
-    }
-
-    .text2 h1 {
-        font-size: 85%;
-    }
-
     .text2 {
-        font-size: 85%;
+        margin: auto;
     }
-
 
 }

@@ -36,17 +36,6 @@
     position: relative;
 }
 
-.home2 {
-    position: relative;
-}
-
-.text2 {
-    position: absolute;
-    top: 40%;
-    right: 18%;
-    color: black;
-}
-
 .text {
     position: absolute;
     top: 40%;
@@ -96,10 +85,6 @@
     }
 
     .text {
-        font-size: small;
-    }
-
-    .text2 {
         font-size: small;
     }
 }
