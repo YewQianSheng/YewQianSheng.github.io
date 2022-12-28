@@ -96,10 +96,20 @@
     }
 
     .text {
-        font-size: small;
+        font-size: 85%;
+    }
+
+    .text h1 {
+        font-size: 85%;
+    }
+
+    .text2 h1 {
+        font-size: 85%;
     }
 
     .text2 {
-        font-size: small;
+        font-size: 85%;
     }
+
+
 }
