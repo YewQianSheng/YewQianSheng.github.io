@@ -113,7 +113,7 @@
     left: 15%;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
     .number {
         flex-direction: column;
         font-size: 16px;
@@ -144,7 +144,7 @@
         order: 2;
     }
 
-    .contactform {
-        width: 90%;
+    #contactform {
+        width: 100%;
     }
 }
