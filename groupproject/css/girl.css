@@ -87,4 +87,16 @@
     .text {
         font-size: small;
     }
+
+    .text2 h1 {
+        font-size: medium;
+    }
+
+    .text2 p {
+        font-size: small;
+    }
+
+    .button {
+        font-size: x-small;
+    }
 }
