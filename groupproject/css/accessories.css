@@ -40,6 +40,10 @@
     color: black;
 }
 
+.carousel-item img {
+    width: 50%;
+    margin: auto;
+}
 
 @media screen and (max-width: 800px) {
     .flex {
@@ -47,12 +51,22 @@
     }
 
     .column {
-        width: 95%;
+        width: 90%;
         margin: auto;
         margin-bottom: 2%;
     }
 
     .title h1 {
         font-size: large;
+    }
+
+    p,
+    h5 {
+        font-size: 20px;
+    }
+
+    .carousel-item img {
+        width: 50%;
+        margin: auto;
     }
 }

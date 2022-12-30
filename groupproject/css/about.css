@@ -30,7 +30,6 @@
     border: 2px solid white;
     background-color: white;
     width: 25%;
-    height: 400px;
     justify-content: center;
     text-align: center;
     padding-top: 2%;
@@ -43,20 +42,21 @@
 
 .home {
     position: relative;
+    background-color: black;
 }
 
 .text h1 {
     position: absolute;
     top: 40%;
     left: 15%;
-    color: black;
+    color: white;
 }
 
 .text p {
     position: absolute;
     top: 50%;
     left: 15%;
-    color: black;
+    color: white;
 }
 
 .overlay {
@@ -99,6 +99,7 @@
 
     .mission img {
         width: 100%;
+        height: auto;
     }
 
     .flex {
@@ -107,15 +108,36 @@
     }
 
     .border {
-        width: auto;
+        width: 80%;
         height: auto;
+        margin: auto;
     }
 
     .text {
-        font-size: medium;
+        font-size: small;
+    }
+
+    .text h1 {
+        font-size: large;
     }
 
     .text p {
         margin-top: 5%;
+    }
+
+    .content h2 {
+        padding-top: 5%;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .world {
+        font-size: x-small;
+    }
+
+    .world h5,
+    h4 {
+        font-size: medium;
     }
 }

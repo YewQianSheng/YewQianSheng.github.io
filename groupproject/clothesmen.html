@@ -4,69 +4,75 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="css/jerseymen.css" />
+  <link rel="stylesheet" type="text/css" href="css/clothesmen.css" />
   <link rel="icon" type="image/x-icon" href="img/logo_ezsport.png" />
-
   <title>Men's Clothes</title>
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous" />
 </head>
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <a class="navbar-brand ms-3" href="#">
-        <img src="img/logo_ezsport.png" alt="EZ SPORT" width="40" class="d-inline-block align-text-top" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="sticky">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand ms-3" href="index.html">
+          <img src="img/logo_ezsport.png" alt="EZ SPORT" width="40" class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Men
-            </a>
-            <ul class="dropdown-menu text-center">
-              <li><a class="dropdown-item active" href="clothesmen.html">Clothes</a></li>
-              <li><a class="dropdown-item" href="shortmen.html">Short</a></li>
-              <li><a class="dropdown-item" href="men_sneakers.html">Sneakers</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Women
-            </a>
-            <ul class="dropdown-menu text-center">
-              <li><a class="dropdown-item" href="clotheswomen.html">Clothes</a></li>
-              <li><a class="dropdown-item" href="Pantswomen.html">Pants</a></li>
-              <li><a class="dropdown-item" href="woman_sneakers.html">Sneakers</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="accessories.html">Accessories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Men
+              </a>
+              <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item active" href="clothesmen.html">Cloth</a></li>
+                <li><a class="dropdown-item" href="shortmen.html">Short</a></li>
+                <li><a class="dropdown-item" href="men_sneakers.html">Sneaker</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Women
+              </a>
+              <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="clotheswomen.html">Cloth</a></li>
+                <li><a class="dropdown-item" href="Pantswomen.html">Pant</a></li>
+                <li><a class="dropdown-item" href="woman_sneakers.html">Sneaker</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accessories.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="picture">
       <img src="img/jerseyman.jpeg" width="100%" alt="" />
+      <div class="title">
+        <h1><strong>Men's Clothes</strong></h1>
+      </div>
     </div>
 
-    <div class="jersey1">
-      <div class="box1">
+    <div class="jersey1 p-3">
+      <div class="box1 p-4">
         <div class="liverpool">
           <div id="carouselliverpool" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -89,18 +95,24 @@
             </button>
           </div>
           <h5>Liverpool F.C. 2022</h5>
-          <p>
-            • Men's Nike Dri-FIT ADV Football Shirt <br />
 
-            • Made for Optimal Breathability<br />
-
-            • 100% polyester<br />
-
-            • Machine wash<br />
-
-            • Imported
-          </p>
-
+          <ul>
+            <li>
+              Men's Nike Dri-FIT ADV Football Shirt
+            </li>
+            <li>
+              Made for Optimal Breathability
+            </li>
+            <li>
+              100% polyester
+            </li>
+            <li>
+              Machine wash
+            </li>
+            <li>
+              Imported
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Interested?
           </button>
@@ -127,7 +139,7 @@
           </div>
         </div>
       </div>
-      <div class="box1">
+      <div class="box1 p-4">
         <div class="paris">
           <div id="carouselparis" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -149,17 +161,23 @@
           </div>
 
           <h5>Paris Saint-Germain 2022</h5>
-          <p>
-            • Men's Nike Dri-FIT ADV Football Shirt <br />
-
-            • Made for Optimal Breathability<br />
-
-            • 100% polyester<br />
-
-            • Machine wash<br />
-
-            • Imported
-          </p>
+          <ul>
+            <li>
+              Men's Nike Dri-FIT ADV Football Shirt
+            </li>
+            <li>
+              Made for Optimal Breathability
+            </li>
+            <li>
+              100% polyester
+            </li>
+            <li>
+              Machine wash
+            </li>
+            <li>
+              Imported
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
             Interested?
           </button>
@@ -185,8 +203,8 @@
         </div>
       </div>
     </div>
-    <div class="jersey2">
-      <div class="box1">
+    <div class="jersey2 p-3">
+      <div class="box1 p-4">
         <div class="laker">
           <div id="carousellaker" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -207,18 +225,24 @@
             </button>
           </div>
           <h5>Nike Dri-FIT NBA Jersey (Los Angeles Lakers)</h5>
-          <p>
-            • Nike Dri-FIT technology wicks moisture away quickly to stay
-            dry<br />
-
-            • Twilled player names and jersey numbers<br />
-
-            • 100% polyester fiber<br />
-
-            • Machine washable<br />
-
-            • Color: Yellow
-          </p>
+          <ul>
+            <li>
+              Nike Dri-FIT technology wicks moisture away quickly to stay
+              dry
+            </li>
+            <li>
+              Twilled player names and jersey numbers
+            </li>
+            <li>
+              100% polyester fiber
+            </li>
+            <li>
+              Machine washable
+            </li>
+            <li>
+              Color: Yellow
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal3">
             Interested?
           </button>
@@ -243,7 +267,7 @@
           </div>
         </div>
       </div>
-      <div class="box1">
+      <div class="box1 p-4">
         <div class="warrior">
           <div id="carouselwarrior" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -265,18 +289,24 @@
           </div>
 
           <h5>Nike Dri-FIT NBA Jersey (Golden State Warriors)</h5>
-          <p>
-            • Nike Dri-FIT technology wicks moisture away quickly to stay
-            dry<br />
-
-            • Twilled player names and jersey numbers<br />
-
-            • 100% polyester fiber<br />
-
-            • Machine washable<br />
-
-            • Color: Blue
-          </p>
+          <ul>
+            <li>
+              Nike Dri-FIT technology wicks moisture away quickly to stay
+              dry
+            </li>
+            <li>
+              Twilled player names and jersey numbers
+            </li>
+            <li>
+              100% polyester fiber
+            </li>
+            <li>
+              Machine washable
+            </li>
+            <li>
+              Color: Blue
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal4">
             Interested?
           </button>
@@ -302,16 +332,16 @@
         </div>
       </div>
     </div>
-    <div class="jersey3">
-      <div class="box5">
+    <div class="jersey3 p-3">
+      <div class="box5 p-5">
         <div class="imagemen">
           <div id="carouselmen" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/Mens_Performance_T_Shirt.png" width="40%" class="rounded mx-auto d-block" />
+                <img src="img/Mens_Performance_T_Shirt.png" width="35%" class="rounded mx-auto d-block" />
               </div>
               <div class="carousel-item">
-                <img src="img/Mens_Performance_T_Shirtback.png" width="40%" class="rounded mx-auto d-block" />
+                <img src="img/Mens_Performance_T_Shirtback.png" width="35%" class="rounded mx-auto d-block" />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselmen" data-bs-slide="prev">
@@ -326,18 +356,23 @@
         </div>
         <div class="men">
           <h5>Mens Performance T Shirt</h5>
-          <p>
-            • Dry-FIT Technology helps keep dry and comfortable<br />
-
-            • Breathe fabric helps keep dry and cool <br />
-
-            • Contoured fit provide mobility
-            <br />
-
-            • Replica design <br />
-
-            • Fabric: 100% recycled polyester
-          </p>
+          <ul>
+            <li>
+              Dry-FIT Technology helps keep dry and comfortable
+            </li>
+            <li>
+              Breathe fabric helps keep dry and cool
+            </li>
+            <li>
+              Contoured fit provide mobility
+            </li>
+            <li>
+              Replica design
+            </li>
+            <li>
+              Fabric: 100% recycled polyester
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal5">
             Interested?
           </button>
@@ -377,7 +412,7 @@
       <div class="column3">
         <h4><strong>CATEGORIES</strong></h4>
         <a href="men.html">Men</a>
-        <a href="girl.html">Women</a>
+        <a href="women.html">Women</a>
         <a href="accessories.html">Accessories</a>
 
       </div>

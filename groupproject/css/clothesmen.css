@@ -9,9 +9,16 @@
     background-color: #747474;
     height: fit-content;
     width: 45%;
-    text-align: right;
 }
 
+.box1 button {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+ul {
+    color: white;
+}
 
 .liverpool h5 {
     text-align: center;
@@ -20,25 +27,11 @@
     margin-bottom: 4%;
 }
 
-.liverpool p {
-    color: white;
-    margin-left: 5%;
-    text-align: left;
-}
-
-
 .paris h5 {
     text-align: center;
     color: white;
     margin-top: 3%;
     margin-bottom: 5%;
-}
-
-.paris p {
-    color: white;
-    margin-left: 5%;
-    text-align: left;
-
 }
 
 .jersey2 {
@@ -56,25 +49,11 @@
     margin-bottom: 5%;
 }
 
-.laker p {
-    color: white;
-    margin-left: 5%;
-    text-align: left;
-
-}
-
 .warrior h5 {
     text-align: center;
     color: white;
     margin-top: 3%;
     margin-bottom: 5%;
-}
-
-.warrior p {
-    color: white;
-    margin-left: 5%;
-    text-align: left;
-
 }
 
 .jersey3 {
@@ -90,60 +69,42 @@
     margin: auto;
 }
 
-.box5 p{
-    margin-left: 5%;
-}
-
-.box5 button{
-    margin-left: 5%;
+.box5 button {
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 .imagemen {
     width: 50%;
 }
-.men{
+
+.men {
     width: 50%;
-    padding-top: 3%;
+    padding-top: 2%;
 }
+
 .men h5 {
     text-align: center;
     color: white;
 }
 
-.men p {
+.picture img {
+    opacity: 0.4;
+}
+
+.picture {
+    position: relative;
+    background-color: black;
+}
+
+.title {
+    position: absolute;
+    top: 45%;
+    left: 3%;
+}
+
+.title h1 {
     color: white;
-}
-
-.footerrow {
-    padding: 2%;
-    display: flex;
-    text-align: center;
-    background-color: #626262;
-    color: white;
-}
-
-.column2 {
-    width: 30%;
-}
-
-.column3 {
-    width: 20%;
-    display: grid;
-}
-
-.column3 a {
-    color: white;
-}
-
-.row {
-    display: flex;
-    justify-content: center;
-}
-
-.column {
-    width: 50%;
-    justify-content: center;
-    text-align: center;
 }
 
 @media screen and (max-width: 700px) {
@@ -170,17 +131,18 @@
 
     .box5 {
         flex-direction: column;
-        text-align: right;
         width: 90%;
         margin: auto;
     }
-    .men{
-        width: 100%;
-        margin: auto;
+
+    .box5 button {
+        margin-left: 2%;
+        margin-bottom: 2%;
     }
 
-    .men p {
-        text-align: left;
+    .men {
+        width: 100%;
+        margin: auto;
     }
 
     .imagemen {
@@ -199,5 +161,9 @@
     .column3 {
         margin-bottom: 2%;
         width: 100%;
+    }
+
+    .title h1 {
+        font-size: large;
     }
 }

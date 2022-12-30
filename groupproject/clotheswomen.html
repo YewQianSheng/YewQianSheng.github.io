@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="css/jerseywomen.css" />
+  <link rel="stylesheet" type="text/css" href="css/clotheswomen.css" />
   <link rel="icon" type="image/x-icon" href="img/logo_ezsport.png">
-
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
   <title>Women's Clothes</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     crossorigin="anonymous" />
@@ -14,58 +14,64 @@
 
 <body>
   <div class="container">
-    <nav class="navbar navbar-expand-lg bg-light">
-      <a class="navbar-brand ms-3" href="#">
-        <img src="img/logo_ezsport.png" alt="EZ SPORT" width="40" class="d-inline-block align-text-top" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <div class="sticky">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <a class="navbar-brand ms-3" href="index.html">
+          <img src="img/logo_ezsport.png" alt="EZ SPORT" width="40" class="d-inline-block align-text-top" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Men
-            </a>
-            <ul class="dropdown-menu text-center">
-              <li><a class="dropdown-item" href="clothesmen.html">Clothes</a></li>
-              <li><a class="dropdown-item" href="shortmen.html">Short</a></li>
-              <li><a class="dropdown-item" href="men_sneakers.html">Sneakers</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Women
-            </a>
-            <ul class="dropdown-menu text-center">
-              <li><a class="dropdown-item active" href="clotheswomen.html">Clothes</a></li>
-              <li><a class="dropdown-item" href="Pantswomen.html">Pants</a></li>
-              <li><a class="dropdown-item" href="woman_sneakers.html">Sneakers</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="accessories.html">Accessories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Men
+              </a>
+              <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item" href="clothesmen.html">Cloth</a></li>
+                <li><a class="dropdown-item" href="shortmen.html">Short</a></li>
+                <li><a class="dropdown-item" href="men_sneakers.html">Sneaker</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Women
+              </a>
+              <ul class="dropdown-menu text-center">
+                <li><a class="dropdown-item active" href="clotheswomen.html">Cloth</a></li>
+                <li><a class="dropdown-item" href="Pantswomen.html">Pant</a></li>
+                <li><a class="dropdown-item" href="woman_sneakers.html">Sneaker</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="accessories.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="picture">
       <img src="img/jerseywomen.jpeg" width="100%" alt="" />
+      <div class="title">
+        <h1><strong>Women's Cloth</strong></h1>
+      </div>
     </div>
-    <div class="jersey1">
-      <div class="box1">
+    <div class="jersey1 p-3">
+      <div class="box1 p-3">
         <div class="women">
           <div id="carouselwomen" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -86,17 +92,23 @@
             </button>
           </div>
           <h5>Women Performance T Shirt</h5>
-          <p>
-            • Dry-FIT Technology <br />
-
-            • Breathe fabric<br />
-
-            • Contoured fit<br />
-
-            • Replica design <br />
-
-            • 100% recycled polyester
-          </p>
+          <ul>
+            <li>
+              Dry-FIT Technology
+            </li>
+            <li>
+              Breathe fabric
+            </li>
+            <li>
+              Contoured fit
+            </li>
+            <li>
+              Replica design
+            </li>
+            <li>
+              100% recycled polyester
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Interested?
           </button>
@@ -123,7 +135,7 @@
           </div>
         </div>
       </div>
-      <div class="box1">
+      <div class="box1 p-3">
         <div class="heat">
           <div id="carouselheat" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -145,17 +157,23 @@
           </div>
 
           <h5>Heat Gear Womens T Shirt</h5>
-          <p>
-            • Regular fit <br />
-
-            • Quick-drying<br />
-
-            • Anti-odor technology<br />
-
-            • Shaped drop-tail hem<br />
-
-            • Soft pinhole mesh fabric
-          </p>
+          <ul>
+            <li>
+              Regular fit
+            </li>
+            <li>
+              Quick-drying
+            </li>
+            <li>
+              Anti-odor technology
+            </li>
+            <li>
+              Shaped drop-tail hem
+            </li>
+            <li>
+              Soft pinhole mesh fabric
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal1">
             Interested?
           </button>
@@ -183,8 +201,8 @@
         </div>
       </div>
     </div>
-    <div class="jersey2">
-      <div class="box1">
+    <div class="jersey2 p-3">
+      <div class="box1 p-3">
         <div class="bra">
           <div id="carouselbra" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -205,17 +223,23 @@
             </button>
           </div>
           <h5>Alphaskin Padded Bra</h5>
-          <p>
-            • Compression fit<br />
-
-            • Adaptive-fit Alphaskin<br />
-
-            • Round neck<br />
-
-            • Double-layer inner power mesh lining<br />
-
-            • Moisture-absorbing AEROREADY
-          </p>
+          <ul>
+            <li>
+              Compression fit
+            </li>
+            <li>
+              Adaptive-fit Alphaskin
+            </li>
+            <li>
+              Round neck
+            </li>
+            <li>
+              Double-layer inner power mesh lining
+            </li>
+            <li>
+              Moisture-absorbing AEROREADY
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
             Interested?
           </button>
@@ -242,7 +266,7 @@
           </div>
         </div>
       </div>
-      <div class="box1">
+      <div class="box1 p-3">
         <div class="fresh">
           <div id="carouselfresh" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -263,18 +287,24 @@
             </button>
           </div>
           <h5>Fresh Classic Fit Womens T Shirt</h5>
-          <p>
-            • Crew neck<br />
+          <ul>
+            <li>
+              Crew neck
+            </li>
+            <li>
+              Regular fit
+            </li>
+            <li>
+              Soft and comfortable feel
+            </li>
+            <li>
+              Made with natural dyes
+            </li>
+            <li>
+              Fabric: Cotton
+            </li>
+          </ul>
 
-            • Regular fit<br />
-
-            • Soft and comfortable feel<br />
-
-            • Made with natural dyes<br />
-
-            • Fabric: Cotton
-
-          </p>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal3">
             Interested?
           </button>
@@ -302,16 +332,16 @@
         </div>
       </div>
     </div>
-    <div class="jersey3">
-      <div class="box5">
+    <div class="jersey3 p-3">
+      <div class="box5 p-4">
         <div class="imagewomen">
           <div id="carouseltank" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="img/Eversculpt_Womens_Performance_Tank_Top.png" width="40%" class="rounded mx-auto d-block" />
+                <img src="img/Eversculpt_Womens_Performance_Tank_Top.png" width="35%" class="rounded mx-auto d-block" />
               </div>
               <div class="carousel-item ">
-                <img src="img/Eversculpt_Womens_Performance_Tankback.png" width="40%" class="rounded mx-auto d-block" />
+                <img src="img/Eversculpt_Womens_Performance_Tankback.png" width="35%" class="rounded mx-auto d-block" />
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouseltank" data-bs-slide="prev">
@@ -326,17 +356,23 @@
         </div>
         <div class="tank">
           <h5>Eversculpt Womens Performance Tank Top</h5>
-          <p>
-            • Tight fit <br />
-
-            • Crew neck <br />
-
-            • Cropped length <br />
-
-            • DryCell Technology <br />
-
-            • Made in part with recycled content
-          </p>
+          <ul>
+            <li>
+              Tight fit
+            </li>
+            <li>
+              Crew neck
+            </li>
+            <li>
+              Cropped length
+            </li>
+            <li>
+              DryCell Technology
+            </li>
+            <li>
+              Made in part with recycled content
+            </li>
+          </ul>
           <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal4">
             Interested?
           </button>
@@ -378,7 +414,7 @@
       <div class="column3">
         <h4><strong>CATEGORIES</strong></h4>
         <a href="men.html">Men</a>
-        <a href="girl.html">Women</a>
+        <a href="women.html">Women</a>
         <a href="accessories.html">Accessories</a>
 
       </div>
