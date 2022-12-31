@@ -82,6 +82,10 @@ ul {
     }
 
     .mentext li {
+        text-align: left;
+    }
+
+    .mentext li {
         font-size: 90%;
     }
 

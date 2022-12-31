@@ -205,6 +205,10 @@
         font-size: 90%;
     }
 
+    .text2 button {
+        margin-top: 6%;
+    }
+
     .carousel-inner h1 {
         font-size: medium;
     }
@@ -218,6 +222,6 @@
     }
 
     .home .button {
-        margin-top: 5%;
+        margin-top: 6%;
     }
 }

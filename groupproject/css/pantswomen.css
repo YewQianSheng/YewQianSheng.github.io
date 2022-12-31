@@ -29,6 +29,9 @@ ul {
     margin: auto;
 }
 
+.mentext li {
+    text-align: left;
+}
 
 .mentext h5 {
     color: white;
