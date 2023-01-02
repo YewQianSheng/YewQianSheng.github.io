@@ -199,6 +199,8 @@
         width: 80%;
         height: auto;
         margin: auto;
+        margin-bottom: 5%;
+        padding-bottom: 5%;
     }
 
     .border h5 {
