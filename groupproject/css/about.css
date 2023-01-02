@@ -54,7 +54,7 @@
 
 .text p {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 15%;
     color: white;
 }
@@ -119,10 +119,6 @@
 
     .text h1 {
         font-size: large;
-    }
-
-    .text p {
-        margin-top: 5%;
     }
 
     .content h2 {
