@@ -20,6 +20,10 @@
     text-decoration: none;
 }
 
+.column3 a:hover {
+    color: white;
+}
+
 div.sticky {
     position: -webkit-sticky;
     position: sticky;
