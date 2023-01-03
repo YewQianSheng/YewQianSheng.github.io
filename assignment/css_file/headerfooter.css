@@ -20,8 +20,12 @@ p {
 }
 
 #title {
-    color: white;
     margin-top: 10px;
+}
+
+#title a {
+    color: white;
+    text-decoration: none;
 }
 
 .logo {

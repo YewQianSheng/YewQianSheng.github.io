@@ -417,6 +417,7 @@
         margin-top: 25px;
     }
 
+
     .mywork {
         flex-direction: column;
         margin-left: 60%;
@@ -442,6 +443,16 @@
         justify-content: center;
         text-align: center;
         margin: auto;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .work h1 {
+        font-size: medium;
+    }
+
+    .info {
+        margin-right: 0.5%;
     }
 }
 
