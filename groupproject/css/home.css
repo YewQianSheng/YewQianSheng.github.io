@@ -38,6 +38,7 @@
     top: 52%;
     left: 15%;
     color: white;
+    font-size: larger;
 }
 
 .text h1 {
@@ -53,7 +54,7 @@
     top: 52%;
     left: 15%;
     color: white;
-
+    font-size: larger;
 }
 
 .button {
@@ -62,6 +63,7 @@
     left: 15%;
     border-radius: 7%;
     background-color: white;
+    padding: 0.5%;
 }
 
 .button a {
@@ -176,7 +178,7 @@
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .flex {
         flex-direction: column;
         width: 90%;
@@ -216,7 +218,7 @@
     }
 
     .carousel-inner p {
-        font-size: small;
+        font-size: medium;
     }
 
     .button {

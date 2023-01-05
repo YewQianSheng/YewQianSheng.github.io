@@ -9,7 +9,7 @@
     border: 1px solid black;
     padding: 2%;
     background-color: #D9D9D9;
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 
@@ -102,6 +102,11 @@
     width: 60%;
 }
 
+.column1 a {
+    text-decoration: none;
+    color: black;
+}
+
 .toppic {
     position: relative;
     color: white;
@@ -112,6 +117,10 @@
     position: absolute;
     top: 40%;
     left: 15%;
+}
+
+.title p {
+    font-size: larger;
 }
 
 @media screen and (max-width: 800px) {
