@@ -43,6 +43,10 @@
     color: black;
 }
 
+.text p {
+    font-size: larger;
+}
+
 .button {
     border-radius: 7%;
     border: #d9d9d9;
