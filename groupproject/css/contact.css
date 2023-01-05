@@ -157,4 +157,12 @@
     #contactform {
         width: 100%;
     }
+
+    .title p {
+        font-size: medium;
+    }
+
+    .column1 a {
+        font-size: medium;
+    }
 }
